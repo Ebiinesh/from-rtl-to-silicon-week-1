@@ -68,7 +68,7 @@ $ cd verilog_model            : Contains Verilog models of standard cells in the
 
 * Explore the `verilog_files` directory, which contains the working files for this workshop:
 
-```bash
+```shell
 cd sky130RTLDesignAndSynthesisWorkshop
 ls -ltr
 cd verilog_files
