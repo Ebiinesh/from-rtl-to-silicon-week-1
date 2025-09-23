@@ -46,7 +46,7 @@ The **simulation pipeline** can be visualized as:
 4. **Execution** – Running the executable simulates circuit behavior.
 5. **Waveform Viewing** – The `.vcd` file captures signal transitions; tools like **GTKWave** display them graphically.
 
-!(./Day1/images/iverilog.png)
+!(Day1/images/iverilog.png) Day1/images/iverilog.png
 
 ---
 
