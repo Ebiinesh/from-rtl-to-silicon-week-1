@@ -37,12 +37,11 @@ Below image depicts the complete iverilog simulation workflow:
 ## 1.5 Lab Environment Setup
 * Log into your lab instance and create a directory named VLSI in your home directory:
 
-```
-$ cd /home/user/
+```shell
 $ mkdir VLSI
 ```
 
-![](DAY_1/LAB_setup1.1.png)
+![](images/1.png)
 
 * Clone the GitHub repository into the VLSI directory:
 
@@ -51,7 +50,7 @@ $ cd VLSI
 $ git clone https://github.com/kunalg123/sky130RTLDesignAndSynthesisWorkshop.git
 ```
 
-![](DAY_1/LAB_setup1.2.png)
+![](images/2.png)
 
 * Check the contents of the `sky130RTLDesignAndSynthesisWorkshop` directory:
 
