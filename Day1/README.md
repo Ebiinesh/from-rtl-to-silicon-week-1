@@ -57,13 +57,9 @@ $ git clone https://github.com/kunalg123/sky130RTLDesignAndSynthesisWorkshop.git
 ```
 $ cd sky130RTLDesignAndSynthesisWorkshop
 $ ls -ltr
-$ cd my_lib
-$ cd lib                       : Contains sky130 standard cell library
-$ cd ..
-$ cd verilog_model            : Contains Verilog models of standard cells in the lib directory
 ```
 
-![](DAY_1/LAB_setup1.3.png)
+![](images/4.png)
 
 * Explore the `verilog_files` directory, which contains the working files for this workshop:
 
@@ -73,7 +69,7 @@ ls -ltr
 cd verilog_files
 ```
 
-![](DAY_1/LAB_setup1.4.png)
+![](images/6.png)
 
 ## 1.6 Simulating a Multiplexer with Icarus Verilog
 The simulation process for a multiplexer (MUX) using iverilog follows these steps:
@@ -96,6 +92,7 @@ $ iverilog good_mux.v tb_good_mux.v
 ```
 $ ./a.out
 ```
+![](images/7.png)
 
 3. Use GTKWave to view the simulation waveform from the .vcd file:
 
@@ -104,7 +101,7 @@ $ gtkwave tb_good_mux.vcd
 ```
 
 4. Drag the signals to the signal column in GTKWave to view them in the waveform window:  
-![](DAY_1/good_mux_waveform.png)
+![](images/8.png)
 
 ## 1.7 Synthesizing Designs with Yosys
 * **Synthesis**: Synthesis transforms an RTL design into a gate-level circuit. Hardware Description Languages (HDLs) like Verilog describe the circuit’s behavior, which is then converted into a physical circuit representation by synthesis tools. The output is a “Gate-Level Netlist,” representing the circuit’s structure in terms of gates and their connections. The synthesis tool used here is Yosys.
