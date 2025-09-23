@@ -46,7 +46,7 @@ The **simulation pipeline** can be visualized as:
 4. **Execution** – Running the executable simulates circuit behavior.
 5. **Waveform Viewing** – The `.vcd` file captures signal transitions; tools like **GTKWave** display them graphically.
 
-![Icarus Verilog Simulation Flow](Day1/images/iverilog.png)
+![Icarus Verilog Simulation Flow](images/iverilog.png)
 ---
 
 ## 📂 3. The Role of the `.vcd` File
