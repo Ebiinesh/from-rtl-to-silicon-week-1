@@ -32,7 +32,7 @@ Below image illustrates the test bench configuration:
   The iverilog simulator generates a Value Change Dump (.vcd) file, which can be visualized using the GTKWave tool.
 
 Below image depicts the complete iverilog simulation workflow:  
-![](images/iverilog.png)
+
 ![](DAY_1/iverilog_sim_flow.png)
 
 ## 1.5 Lab Environment Setup
