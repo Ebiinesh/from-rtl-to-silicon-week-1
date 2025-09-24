@@ -200,4 +200,10 @@ $ show
 **Unique Tip**: In safety-critical systems, prefer async resets for instant recovery.
 
 ## Summary
-This Day 2 guide equips you with timing library mastery, synthesis strategies for scalability, and flip-flop techniques for robust designs. Through tables, examples, and tips, it transforms complex topics into actionable knowledge—empowering you to create efficient, glitch-free circuits in SKY130. Experiment with the commands to innovate!
+
+| Key Topic                  | Core Takeaway                                                                 | Creative Tip for SKY130 Designs                  |
+|----------------------------|-------------------------------------------------------------------------------|--------------------------------------------------|
+| **Timing Libraries**      | Decode .lib files for cell timing/power; choose variants for density vs. speed. | Mix small cells for power savings, big ones for hot paths—like a balanced meal! |
+| **Synthesis Strategies**  | Hierarchical for modularity; flat for optimization; submodule for big projects. | Start hierarchical, flatten at the end: it's like sketching rough, then polishing the sculpture. |
+| **Flip-Flop Coding**      | Use async/syn resets to block glitches; always initialize to avoid chaos.     | Code flops like safety nets—async for quick escapes, sync for clock dances. |
+| **Overall Impact**        | Build glitch-free, scalable circuits with Yosys commands and library smarts.  | Tinker boldly: one command tweak could shave 20% power—your innovation playground! |
