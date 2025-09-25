@@ -50,6 +50,9 @@ Liberty files (`.lib`) are the industry-standard ASCII format for cell character
 In `sky130_fd_sc_hd__tt_025C_1v80.lib`, cells like `sky130_fd_sc_hd__a21110_1` detail a 5-input logic (AND of two, ORed with three) with leakage power across 32 input states.
 
 ![](images/Lib_details.png)
+
+In `sky130_fd_sc_hd__tt_025C_1v80.lib`, cells like `sky130_fd_sc_hd__a21110_1` detail a 5-input logic (AND of two, ORed with three) with leakage power across 32 input states.
+
 ![](images/cell_a2111o.png)
 
 Libraries offer gate "flavors" for flexibility. For AND gates:
