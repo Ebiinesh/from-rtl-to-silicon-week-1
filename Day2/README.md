@@ -3,6 +3,23 @@
 This module dives into the essentials of timing libraries, contrasts hierarchical and flat synthesis techniques, and explores optimized coding for flip-flops. Designed for clarity and depth, this guide includes practical examples, comparison tables, and Verilog snippets to make concepts immediately graspable. Whether you're a beginner or refining your skills, you'll find unique insights, like trade-off analyses and real-world application tips, to stand out in your designs.
 
 ---
+## Table of Contents - Day 2
+
+- [2.1 Introduction to Timing Libraries](#21-introduction-to-timing-libraries)  
+  - [2.1.1 Library Naming Conventions](#211-library-naming-conventions)  
+  - [2.1.2 Understanding Liberty Files](#212-understanding-liberty-files)  
+
+- [2.2 Hierarchical vs. Flat Synthesis](#22-hierarchical-vs-flat-synthesis)  
+  - [2.2.1 Hierarchical Synthesis](#221-hierarchical-synthesis)  
+  - [2.2.2 Flat Synthesis](#222-flat-synthesis)  
+  - [2.2.3 Submodule-Level Synthesis](#223-submodule-level-synthesis)  
+
+- [2.3 Efficient Flip-Flop Coding Styles](#23-efficient-flip-flop-coding-styles)  
+  - [2.3.1 Why Flip-Flops Are Essential](#231-why-flip-flops-are-essential)  
+  - [2.3.2 Flip-Flop Coding Styles](#232-flip-flop-coding-styles)  
+
+- [2.4 Day 2 Summary](#24-day-2-summary)
+
 
 ## 2.1 Introduction to Timing Libraries
 
