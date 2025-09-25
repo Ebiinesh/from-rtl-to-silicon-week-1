@@ -91,3 +91,12 @@ In some designs, synthesis tools eliminate logic unrelated to primary outputs. F
 | Output follows count[0] | Compliment of output as flip-flop input |
 
 This ensures only essential logic is retained, reducing area and power.
+
+## 1.6 Day 3 Summary
+| **Topic**                     | **Key Points**                                                                 |
+|-------------------------------|--------------------------------------------------------------------------------|
+| **Overview**                  | Optimizes circuits for timing, area, and power; reduces gate count and execution time. |
+| **Combinational Optimization** | Uses constant propagation and Boolean simplification to minimize logic complexity. |
+| **Sequential Optimization**   | Applies constant propagation, state reduction, retiming, and logic duplication.   |
+| **Yosys Workflow**            | Automates optimization with commands like `opt_clean` and `synth` for efficient designs. |
+| **Unused Outputs**            | Eliminates logic not affecting outputs, e.g., reducing a 3-bit counter to one flip-flop. |
