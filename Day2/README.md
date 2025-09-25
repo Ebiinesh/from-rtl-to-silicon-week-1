@@ -106,13 +106,16 @@ Flattening dissolves hierarchy, embedding gates directly for potential optimizat
 
 Use `flatten` in Yosys:
 ```
-$ read_liberty -lib ../my_lib/lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
-$ read_verilog multiple_modules.v
-$ synth -top multiple_modules
-$ abc -liberty ../my_lib/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
-$ write_verilog -noattr multiple_modules_hier.v
-$ flatten
-$ write_verilog -noattr multiple_modules_flat.v
+read_liberty -lib ../my_lib/lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
+read_verilog multiple_modules.v
+synth -top multiple_modules
+abc -liberty ../my_lib/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+show
+write_verilog -noattr multiple_modules_hier.v
+!gvim multiple_modules_hier.v
+flatten
+write_verilog -noattr multiple_modules_flat.v
+!gvim multiple_modules_flat.v
 ```
 
 ![](images/Hier_vs_Flat.png)
