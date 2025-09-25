@@ -1,6 +1,6 @@
 # 1. Day 2 - Timing Libraries, Hierarchical vs. Flat Synthesis, and Efficient Flip-Flop Coding
 
-Welcome to Day 2 of our hands-on workshop on digital design with the SKY130 process! This module dives into the essentials of timing libraries, contrasts hierarchical and flat synthesis techniques, and explores optimized coding for flip-flops. Designed for clarity and depth, this guide includes practical examples, comparison tables, and Verilog snippets to make concepts immediately graspable. Whether you're a beginner or refining your skills, you'll find unique insights, like trade-off analyses and real-world application tips, to stand out in your designs.
+This module dives into the essentials of timing libraries, contrasts hierarchical and flat synthesis techniques, and explores optimized coding for flip-flops. Designed for clarity and depth, this guide includes practical examples, comparison tables, and Verilog snippets to make concepts immediately graspable. Whether you're a beginner or refining your skills, you'll find unique insights, like trade-off analyses and real-world application tips, to stand out in your designs.
 
 ## Table of Contents
 1. [Introduction to Timing Libraries](#1.1-introduction-to-timing-libraries)
