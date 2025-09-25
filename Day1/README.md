@@ -207,3 +207,16 @@ $ write_verilog -noattr good_mux_netlist.v
 The netlist is a Verilog representation of the design using standard cells from the `sky130_fd_sc_hd__tt_025C_1v80.lib` library. To ensure the synthesis tool correctly translated the RTL design, the netlist must be simulated.
 
 Follow the same iverilog simulation flow as described earlier, replacing the RTL design file with the netlist file (`good_mux_netlist.v`). The primary inputs and outputs remain identical between the RTL design and the netlist, so the same test bench can be used.
+
+## 1.6 Day 1 Summary
+
+| **Topic**              | **Key Points**                                                                 |
+|------------------------|--------------------------------------------------------------------------------|
+| **Overview**           | Introduces Verilog RTL design, test bench concepts, and simulation workflow using Icarus Verilog. |
+| **RTL Design**         | Defines digital system behavior at the register-transfer level; written in Verilog modules. |
+| **Test Bench**         | Applies input stimuli to verify design functionality; observes outputs without primary IO. |
+| **Simulation Workflow**| Simulator executes RTL + test bench; tracks input changes; generates .vcd for GTKWave visualization. |
+| **Lab Setup**          | Creates working directories, clones GitHub repository, and explores Verilog files for hands-on exercises. |
+| **Multiplexer Simulation** | Compile RTL + test bench with iverilog; run executable; visualize signals in GTKWave. |
+| **Yosys Synthesis**    | Transforms RTL into gate-level netlist; includes reading library, synthesizing top module, technology mapping, visualizing, and writing netlist. |
+| **Netlist Verification**| Simulate synthesized netlist with existing test bench to confirm functional equivalence with RTL. |
