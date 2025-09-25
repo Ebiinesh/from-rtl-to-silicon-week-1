@@ -14,7 +14,7 @@ Combinational logic optimization focuses on simplifying logic expressions to cre
 ### 1.2.1 Constant Propagation
 Constant propagation replaces known constant values in expressions, eliminating unnecessary computations. For instance, if a circuit input is fixed, the logic can be simplified by propagating this constant to the output, reducing the circuit's complexity.
 
-![](DAY_3/Constant_propagation_opt.png)
+![](images/Constant_propagation_opt.png)
 
 ### 1.2.2 Boolean Algebra Simplification
 This technique applies Boolean algebra rules to simplify complex expressions while preserving functionality. Tools like Karnaugh maps or the Quine-McCluskey method help identify minimal expressions, reducing gate count and power usage.
@@ -24,7 +24,7 @@ This technique applies Boolean algebra rules to simplify complex expressions whi
 | Karnaugh Map          | Visual tool for simplifying up to 6 variables |
 | Quine-McCluskey       | Algorithmic approach for larger expressions   |
 
-![](DAY_3/Boolean_logic_optimization.png)
+![](images/Boolean_logic_optimization.png)
 
 ## 1.3 Sequential Logic Optimization Techniques
 Sequential logic optimization enhances circuits with memory elements, like flip-flops, to improve performance and efficiency. Techniques range from basic constant propagation to advanced methods like state optimization and retiming.
@@ -37,11 +37,11 @@ This method propagates constant values through sequential elements. If a flip-fl
 | Constant input to flip-flop    | Potential constant output           |
 | Non-constant input (e.g., data) | No optimization possible            |
 
-![](DAY_3/Sequential_Constant_propagation_opt.png)
+![](images/Sequential_Constant_propagation_opt.png)
 
 *Example of Non-Optimizable Case*: If a flip-flop’s output depends on variable inputs (e.g., `set = 1` sets `Q = 1`, but `set = 0` and `clk = 1` sets `Q = 0`), no constant propagation occurs.
 
-![](DAY_3/Sequential_Constant_NO_propagation_.png)
+![](images/Sequential_Constant_NO_propagation_.png)
 
 ### 1.3.2 Advanced Optimization Methods
 - **State Optimization**: Removes unused or redundant states in finite state machines, minimizing the number of states and transitions.
@@ -60,7 +60,7 @@ Yosys, an open-source synthesis tool, automates combinational and sequential log
 ### 1.4.1 Combinational Optimization in Yosys
 Consider an example with a Verilog file (`opt_check4.v`):
 
-![](DAY_3/Comb_yosys_opt.png)
+![](images/Comb_yosys_opt.png)
 
 **Synthesis Commands**:
 ```
@@ -78,12 +78,12 @@ $ show
 ### 1.4.2 Sequential Optimization in Yosys
 For a sequential circuit (`dff_const5.v`), Yosys evaluates whether optimization is possible. In cases where the circuit matches the RTL behavior, no further simplification occurs.
 
-![](DAY_3/Sequential_yosys_opt.png)
+![](images/Sequential_yosys_opt.png)
 
 ## 1.5 Optimizing Unused Outputs
 In some designs, synthesis tools eliminate logic unrelated to primary outputs. For example, in `counter_opt.v`, a 3-bit counter may appear to require three flip-flops, but if only one bit affects the output (`q = count[0]`), Yosys optimizes the design to use a single flip-flop.
 
-![](DAY_3/Sequential_unused_output_opt.png)
+![](images/Sequential_unused_output_opt.png)
 
 | **Design Input**      | **Optimized Output**                     |
 |-----------------------|------------------------------------------|
