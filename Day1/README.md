@@ -1,17 +1,17 @@
 # Day 1: Introduction to Verilog RTL Design and Synthesis
 The initial day of the workshop provides an overview of the Icarus Verilog (iverilog) simulator, test bench configuration, simulation flow using iverilog, and hands-on labs with iverilog, GTKWave, and Yosys tools.
 
-# Table of Contents
+## Table of Contents
 
-   1.1 [Overview of Icarus Verilog, RTL Design, and Test Bench](#11-overview-of-icarus-verilog-rtl-design-and-test-bench)  
-   1.2 [Running Simulations with Icarus Verilog](#12-running-simulations-with-icarus-verilog)  
-   1.3 [Configuring Design and Test Bench](#13-configuring-design-and-test-bench)  
-   1.4 [Icarus Verilog Simulation Workflow](#14-icarus-verilog-simulation-workflow)  
-   1.5 [Lab Environment Setup](#15-lab-environment-setup)  
-   1.6 [Simulating a Multiplexer with Icarus Verilog](#16-simulating-a-multiplexer-with-icarus-verilog)  
-   1.7 [Synthesizing Designs with Yosys](#17-synthesizing-designs-with-yosys)  
-       1.7.1 [Yosys Synthesis Workflow](#171-yosys-synthesis-workflow)  
-       1.7.2 [Verifying the Synthesized Netlist](#172-verifying-the-synthesized-netlist)
+- [1.1 Overview of Icarus Verilog, RTL Design, and Test Bench](#11-overview-of-icarus-verilog-rtl-design-and-test-bench)  
+- [1.2 Running Simulations with Icarus Verilog](#12-running-simulations-with-icarus-verilog)  
+- [1.3 Configuring Design and Test Bench](#13-configuring-design-and-test-bench)  
+- [1.4 Icarus Verilog Simulation Workflow](#14-icarus-verilog-simulation-workflow)  
+- [1.5 Lab Environment Setup](#15-lab-environment-setup)  
+- [1.6 Simulating a Multiplexer with Icarus Verilog](#16-simulating-a-multiplexer-with-icarus-verilog)  
+- [1.7 Synthesizing Designs with Yosys](#17-synthesizing-designs-with-yosys)  
+     - [1.7.1 Yosys Synthesis Workflow](#171-yosys-synthesis-workflow)  
+     - [1.7.2 Verifying the Synthesized Netlist](#172-verifying-the-synthesized-netlist)
 
 
 ## 1.1 Overview of Icarus Verilog, RTL Design, and Test Bench
