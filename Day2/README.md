@@ -1,14 +1,14 @@
-# 1. Day 2 - Timing Libraries, Hierarchical vs. Flat Synthesis, and Efficient Flip-Flop Coding
+# Day 2 - Timing Libraries, Hierarchical vs. Flat Synthesis, and Efficient Flip-Flop Coding
 
 This module dives into the essentials of timing libraries, contrasts hierarchical and flat synthesis techniques, and explores optimized coding for flip-flops. Designed for clarity and depth, this guide includes practical examples, comparison tables, and Verilog snippets to make concepts immediately graspable. Whether you're a beginner or refining your skills, you'll find unique insights, like trade-off analyses and real-world application tips, to stand out in your designs.
 
 ---
 
-## 1.1 Introduction to Timing Libraries
+## 2.1 Introduction to Timing Libraries
 
 Timing libraries form the backbone of digital design, offering precise data on how standard cells perform under various conditions. Here, we unpack the SKY130 libraries, emphasizing their structure and selection for optimal designs.
 
-### 1.1.1 Library Naming Conventions
+### 2.1.1 Library Naming Conventions
 
 SkyWater's SKY130 process provides seven standard cell libraries, each suited for specific needs like density or speed, across three cell heights. Our focus library, `sky130_fd_sc_hd__tt_025C_1v80.lib`, prioritizes **high density**—ideal for compact layouts with reduced power draw, though it trades off some drive capability.
 
@@ -31,7 +31,7 @@ To clarify, here's a breakdown table for our library:
 
 This table helps quickly decode library suitability for your project.
 
-### 1.1.2 Understanding Liberty Files
+### 2.1.2 Understanding Liberty Files
 
 Liberty files (`.lib`) are the industry-standard ASCII format for cell characterization, covering timing, power, and more. They compile logic modules like gates in various strengths.
 
@@ -59,11 +59,11 @@ Comparison table of AND variants:
 
 ---
 
-## 1.2 Hierarchical vs. Flat Synthesis
+## 2.2 Hierarchical vs. Flat Synthesis
 
 Synthesis converts RTL to gates. We compare hierarchical (preserving structure) and flat (collapsing it) approaches, with tips for scaling large designs.
 
-### 1.2.1 Hierarchical Synthesis
+### 2.2.1 Hierarchical Synthesis
 
 Imagine an RTL with a top module using two submodules:
 
@@ -88,7 +88,7 @@ $ write_verilog -noattr multiple_modules_hier.v
 
 **Unique Tip**: Use this for team workflows—submodules can be developed independently.
 
-### 1.2.2 Flat Synthesis
+### 2.2.2 Flat Synthesis
 
 Flattening dissolves hierarchy, embedding gates directly for potential optimization.
 
@@ -121,7 +121,7 @@ Comparison table:
 
 **Pro Tip**: Flatten post-debug for final tweaks.
 
-### 1.2.3 Submodule-Level Synthesis
+### 2.2.3 Submodule-Level Synthesis
 
 For efficiency in repeated submodules, synthesize one and replicate—saves runtime on big designs.
 
@@ -141,11 +141,11 @@ $ write_verilog -noattr multiple_modules_sub.v
 
 ---
 
-## 1.3 Efficient Flip-Flop Coding Styles
+## 2.3 Efficient Flip-Flop Coding Styles
 
 Flip-flops stabilize circuits against glitches. We cover fundamentals and styles with Verilog examples.
 
-### 1.3.1 Why Flip-Flops Are Essential
+### 2.3.1 Why Flip-Flops Are Essential
 
 Combinational delays cause glitches—e.g., this circuit should output 1 always, but delays glitch it:
 
@@ -155,7 +155,7 @@ Flip-flops store values on clock edges, blocking glitch propagation.
 
 **Note**: Initialize flops to avoid 'X' states; use SET/RESET pins.
 
-### 1.3.2 Flip-Flop Coding Styles
+### 2.3.2 Flip-Flop Coding Styles
 
 Map flops with `dfflibmap`:
 ```
@@ -196,7 +196,7 @@ $ show
 
 **Unique Tip**: In safety-critical systems, prefer async resets for instant recovery.
 
-## Summary
+## 2.4 Day 2 Summary
 
 | Key Topic                  | Core Takeaway                                                                 | Creative Tip for SKY130 Designs                  |
 |----------------------------|-------------------------------------------------------------------------------|--------------------------------------------------|
