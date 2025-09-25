@@ -50,11 +50,11 @@ Liberty files (`.lib`) are the industry-standard ASCII format for cell character
 In `sky130_fd_sc_hd__tt_025C_1v80.lib`, cells like `sky130_fd_sc_hd__a21110_1` detail a 5-input logic (AND of two, ORed with three) with leakage power across 32 input states.
 
 ![](images/Lib_details.png)
-![](/DAY_2/cell_a2111o.png)
+![](images/cell_a2111o.png)
 
 Libraries offer gate "flavors" for flexibility. For AND gates:
 
-![](/DAY_2/and_versions.png)
+![](images/and_versions.png)
 
 Comparison table of AND variants:
 
@@ -76,12 +76,12 @@ Synthesis converts RTL to gates. We compare hierarchical (preserving structure) 
 
 Imagine an RTL with a top module using two submodules:
 
-![](/DAY_2/mutiple_modules.png)
+![](images/mutiple_modules.png)
 
 Hierarchical synthesis keeps submodules intact in the netlist, aiding modularity.
 
-![](/DAY_2/mutiple_modules_synth.png)
-![](/DAY_2/multiple_hier_net.png)
+![](images/mutiple_modules_synth.png)
+![](images/multiple_hier_net.png)
 
 Yosys commands:
 ```
@@ -109,8 +109,8 @@ $ flatten
 $ write_verilog -noattr multiple_modules_flat.v
 ```
 
-![](/DAY_2/Hier_vs_Flat.png)
-![](/DAY_2/Flatten_net.png)
+![](images/Hier_vs_Flat.png)
+![](images/Flatten_net.png)
 
 Comparison table:
 
@@ -137,8 +137,8 @@ $ abc -liberty ../my_lib/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 $ write_verilog -noattr multiple_modules_sub.v
 ```
 
-![](/DAY_2/sub_all.png)
-![](/DAY_2/sub_net.png)
+![](images/sub_all.png)
+![](images/sub_net.png)
 
 **Unique Insight**: In million-gate ASICs, this divide-and-conquer reduces tool crashes and iteration time.
 
@@ -152,7 +152,7 @@ Flip-flops stabilize circuits against glitches. We cover fundamentals and styles
 
 Combinational delays cause glitches—e.g., this circuit should output 1 always, but delays glitch it:
 
-![](/DAY_2/Glitch&wave.png)
+![](images/Glitch&wave.png)
 
 Flip-flops store values on clock edges, blocking glitch propagation.
 
@@ -175,7 +175,7 @@ Styles table:
 | Async & Sync Reset        | Combines both for flexibility.        | Both      | ```module dff_async_syncres (input clk, async_reset, sync_reset, d; output reg q); always @(posedge clk or posedge async_reset) if (async_reset) q <= 0; else if (sync_reset) q <= 0; else q <= d; endmodule``` |
 
 1. Asynchronous Reset:
-![](/DAY_2/dff_asynch_res.png)
+![](images/dff_asynch_res.png)
 Synthesis:
 ```
 $ read_liberty -lib ../my_lib/lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
@@ -187,13 +187,13 @@ $ show
 ```
 
 2. Asynchronous Set:
-![](/DAY_2/dff_asynch_set.png)
+![](images/dff_asynch_set.png)
 
 3. Synchronous Reset:
-![](/DAY_2/dff_synch_res.png)
+![](images/dff_synch_res.png)
 
 4. Async & Sync Reset:
-![](/DAY_2/dff_asynch_sync_res.png)
+![](images/dff_asynch_sync_res.png)
 
 **Note**: Avoid set + reset combos to prevent races.
 
