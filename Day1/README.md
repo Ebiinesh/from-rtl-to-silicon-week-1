@@ -116,7 +116,7 @@ In simpler terms:
 The synthesis tool takes the RTL design and a liberty file (.lib) as inputs to produce a gate-level netlist.
 
 Below image illustrates the Yosys synthesis workflow:  
-![](DAY_1/Yosys_setup.png)
+![](images/91.png)
 
 Steps to synthesize the multiplexer design (`good_mux.v`):
 1. Launch Yosys:
@@ -126,7 +126,7 @@ $ cd verilog_files
 $ yosys
 ```
 
-![](DAY_1/yosys_invoke.png)
+![](images/9.png)
 
 2. Load the sky130 standard cell library:
 
@@ -144,7 +144,7 @@ $ read_verilog good_mux.v
 
 **read_verilog**: Loads Verilog modules into the current design.
 
-![](DAY_1/Yosys_setup_2.png)
+![](images/10.png)
 
 4. Synthesize the top-level module:
 
@@ -155,7 +155,7 @@ $ synth -top good_mux
 **synth**: Executes the default synthesis script for the specified top module (`good_mux` in this case).  
 **-top <module>**: Specifies the top module for synthesis.
 
-![](DAY_1/Yosys_setup_3.png)
+![](images/11.png)
 
 5. Map to the standard cell library:
 
@@ -166,7 +166,7 @@ $ abc -liberty ../my_lib/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 **abc**: Performs technology mapping of Yosys’s internal gate library to the target architecture using the specified liberty file.  
 **-liberty <file>**: Generates netlists for the specified cell library.
 
-![](DAY_1/Yosys_setup_4.png)
+![](images/12.png)
 
 6. Visualize the synthesized design as a Graphviz diagram:
 
@@ -176,7 +176,7 @@ $ show
 
 **show**: Generates a Graphviz DOT file for the selected design portion and compiles it into a graphical format (typically SVG or PostScript).
 
-![](DAY_1/Yosys_setup_5.png)
+![](images/13.png)
 
 7. Write the netlist to a Verilog file:
 
@@ -188,7 +188,7 @@ $ write_verilog -noattr good_mux_netlist.v
 **-noattr**: Excludes attributes from the output.  
 **good_mux_netlist.v**: The output netlist file name (can be customized).
 
-![](DAY_1/Yosys_setup_6.png)
+![](images/15.png)
 
 ### 1.7.2 Verifying the Synthesized Netlist
 The netlist is a Verilog representation of the design using standard cells from the `sky130_fd_sc_hd__tt_025C_1v80.lib` library. To ensure the synthesis tool correctly translated the RTL design, the netlist must be simulated.
