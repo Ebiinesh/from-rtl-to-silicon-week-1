@@ -1,5 +1,21 @@
-# 1. Optimizing Combinational and Sequential Logic
-## 1.1 Overview of Logic Optimization
+# Day 3 Optimizing Combinational and Sequential Logic
+
+## Table of Contents
+
+   3.1 [Overview of Logic Optimization](#31-overview-of-logic-optimization)  
+   3.2 [Combinational Logic Optimization Techniques](#32-combinational-logic-optimization-techniques)  
+       3.2.1 [Constant Propagation](#321-constant-propagation)  
+       3.2.2 [Boolean Algebra Simplification](#322-boolean-algebra-simplification)  
+   3.3 [Sequential Logic Optimization Techniques](#33-sequential-logic-optimization-techniques)  
+       3.3.1 [Sequential Constant Propagation](#331-sequential-constant-propagation)  
+       3.3.2 [Advanced Optimization Methods](#332-advanced-optimization-methods)  
+   3.4 [Logic Optimization Using Yosys](#34-logic-optimization-using-yosys)  
+       3.4.1 [Combinational Optimization in Yosys](#341-combinational-optimization-in-yosys)  
+       3.4.2 [Sequential Optimization in Yosys](#342-sequential-optimization-in-yosys)  
+   3.5 [Optimizing Unused Outputs](#35-optimizing-unused-outputs)  
+   3.6 [Day 3 Summary](#36-day-3-summary)
+
+## 3.1 Overview of Logic Optimization
 Logic optimization involves transforming a logic circuit to achieve an equivalent design that meets specific constraints, such as timing, area, or power efficiency. The goal is to streamline the design, reducing resource usage and improving simulation performance. By minimizing the number of gates or statements in the compiled code, optimization reduces program size, execution time, and power consumption, ensuring efficient hardware implementation.
 
 | **Aspect**         | **Purpose**                              |
@@ -8,15 +24,15 @@ Logic optimization involves transforming a logic circuit to achieve an equivalen
 | Area               | Reduce silicon footprint                 |
 | Power              | Lower energy consumption                 |
 
-## 1.2 Combinational Logic Optimization Techniques
+## 3.2 Combinational Logic Optimization Techniques
 Combinational logic optimization focuses on simplifying logic expressions to create compact, power-efficient designs. Key methods include constant propagation and Boolean algebra simplification, which reduce redundant operations and gate counts.
 
-### 1.2.1 Constant Propagation
+### 3.2.1 Constant Propagation
 Constant propagation replaces known constant values in expressions, eliminating unnecessary computations. For instance, if a circuit input is fixed, the logic can be simplified by propagating this constant to the output, reducing the circuit's complexity.
 
 ![](images/Constant_propagation_opt.png)
 
-### 1.2.2 Boolean Algebra Simplification
+### 3.2.2 Boolean Algebra Simplification
 This technique applies Boolean algebra rules to simplify complex expressions while preserving functionality. Tools like Karnaugh maps or the Quine-McCluskey method help identify minimal expressions, reducing gate count and power usage.
 
 | **Method**            | **Description**                              |
@@ -26,10 +42,10 @@ This technique applies Boolean algebra rules to simplify complex expressions whi
 
 ![](images/Boolean_logic_optimization.png)
 
-## 1.3 Sequential Logic Optimization Techniques
+## 3.3 Sequential Logic Optimization Techniques
 Sequential logic optimization enhances circuits with memory elements, like flip-flops, to improve performance and efficiency. Techniques range from basic constant propagation to advanced methods like state optimization and retiming.
 
-### 1.3.1 Sequential Constant Propagation
+### 3.3.1 Sequential Constant Propagation
 This method propagates constant values through sequential elements. If a flip-flop’s input is constant, its output may also become constant, allowing optimization. However, this applies only when the output is consistently fixed, regardless of clock or reset signals.
 
 | **Condition**                 | **Outcome**                          |
@@ -43,7 +59,7 @@ This method propagates constant values through sequential elements. If a flip-fl
 
 ![](images/Sequential_Constant_NO_propagation_.png)
 
-### 1.3.2 Advanced Optimization Methods
+### 3.3.2 Advanced Optimization Methods
 - **State Optimization**: Removes unused or redundant states in finite state machines, minimizing the number of states and transitions.
 - **Retiming**: Adjusts flip-flop positions to balance combinational delays, improving clock frequency and performance.
 - **Sequential Logic Cloning**: Replicates logic to optimize placement during physical-aware synthesis, reducing wire delays.
@@ -54,10 +70,10 @@ This method propagates constant values through sequential elements. If a flip-fl
 | Retiming              | Improves timing by redistributing delays |
 | Logic Cloning         | Enhances placement in physical design    |
 
-## 1.4 Logic Optimization Using Yosys
+## 3.4 Logic Optimization Using Yosys
 Yosys, an open-source synthesis tool, automates combinational and sequential logic optimization, producing efficient designs from RTL code.
 
-### 1.4.1 Combinational Optimization in Yosys
+### 3.4.1 Combinational Optimization in Yosys
 Consider an example with a Verilog file (`opt_check4.v`):
 
 ![](images/Comb_yosys_opt.png)
@@ -75,12 +91,12 @@ $ show
 - **opt_clean**: Removes unused wires and cells, cleaning up after other optimization passes.
 - **-purge**: Deletes internal nets with public names, further streamlining the design.
 
-### 1.4.2 Sequential Optimization in Yosys
+### 3.4.2 Sequential Optimization in Yosys
 For a sequential circuit (`dff_const5.v`), Yosys evaluates whether optimization is possible. In cases where the circuit matches the RTL behavior, no further simplification occurs.
 
 ![](images/Sequential_yosys_opt.png)
 
-## 1.5 Optimizing Unused Outputs
+## 3.5 Optimizing Unused Outputs
 In some designs, synthesis tools eliminate logic unrelated to primary outputs. For example, in `counter_opt.v`, a 3-bit counter may appear to require three flip-flops, but if only one bit affects the output (`q = count[0]`), Yosys optimizes the design to use a single flip-flop.
 
 ![](images/Sequential_unused_output_opt.png)
@@ -92,7 +108,7 @@ In some designs, synthesis tools eliminate logic unrelated to primary outputs. F
 
 This ensures only essential logic is retained, reducing area and power.
 
-## 1.6 Day 3 Summary
+## 3.6 Day 3 Summary
 | **Topic**                     | **Key Points**                                                                 |
 |-------------------------------|--------------------------------------------------------------------------------|
 | **Overview**                  | Optimizes circuits for timing, area, and power; reduces gate count and execution time. |
