@@ -1,9 +1,8 @@
-# 1. Introduction to Verilog RTL Design and Synthesis
+# Day 1: Introduction to Verilog RTL Design and Synthesis
 The initial day of the workshop provides an overview of the Icarus Verilog (iverilog) simulator, test bench configuration, simulation flow using iverilog, and hands-on labs with iverilog, GTKWave, and Yosys tools.
 
 # Table of Contents
 
-1. [Day 1 – Introduction to Verilog RTL Design and Synthesis](#1-day-1--introduction-to-verilog-rtl-design-and-synthesis)  
    1.1 [Overview of Icarus Verilog, RTL Design, and Test Bench](#11-overview-of-icarus-verilog-rtl-design-and-test-bench)  
    1.2 [Running Simulations with Icarus Verilog](#12-running-simulations-with-icarus-verilog)  
    1.3 [Configuring Design and Test Bench](#13-configuring-design-and-test-bench)  
