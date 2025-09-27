@@ -1,6 +1,6 @@
 # Day 5 - Mastering Verilog Control Structures: From Logic to Hardware
 
-## 🚀 Introduction
+## Introduction
 
 Welcome to Day 5 of our advanced VLSI design course! Today we explore the powerful world of Verilog control structures that form the backbone of digital design. This session focuses on conditional statements (if-else), case constructs, and loop mechanisms that enable efficient hardware description and generation.
 
