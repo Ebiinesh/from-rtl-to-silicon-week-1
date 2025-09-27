@@ -124,9 +124,9 @@ Welcome to **Week 1** of the RTL Design & Synthesis course! This intensive week 
 
 ---
 
-## 📊 Weekly Progress Dashboard
+## Weekly Progress Dashboard
 
-### 🎯 **Skills Acquired**
+### **Skills Acquired**
 ```
 RTL Design Fundamentals    ████████████████████ 100%
 Verilog Coding Proficiency ████████████████████ 100%
@@ -135,7 +135,7 @@ Debug & Verification       █████████████████�
 Tool Proficiency           ████████████████████ 100%
 ```
 
-### 🏆 **Major Milestones**
+### **Major Milestones**
 | **Day** | **Milestone** | **Status** |
 |---------|---------------|------------|
 | Day 1 | RTL Simulation Setup | ✅ Complete |
@@ -146,7 +146,7 @@ Tool Proficiency           █████████████████�
 
 ---
 
-## 🛠️ Design Portfolio
+## Design Portfolio
 
 ### **🔥 Featured Projects**
 
@@ -176,33 +176,33 @@ Tool Proficiency           █████████████████�
 
 ## 🔗 Essential Resources
 
-### **📚 Documentation**
+### **Documentation**
 - [Verilog IEEE Standard 1364-2005](https://ieeexplore.ieee.org/document/1620780)
 - [SystemVerilog IEEE Standard 1800-2017](https://ieeexplore.ieee.org/document/8299595)
 - [SkyWater SKY130 PDK Documentation](https://skywater-pdk.readthedocs.io/)
 
-### **🛠️ Tool References**
+### ** Tool References**
 - [Icarus Verilog User Guide](http://iverilog.icarus.com/usage.html)
 - [GTKWave User Manual](http://gtkwave.sourceforge.net/gtkwave.pdf)
 - [Yosys Manual](http://www.clifford.at/yosys/files/yosys_manual.pdf)
 
-### **🎓 Learning Materials**
+### **Learning Materials**
 - [Digital Design and Computer Architecture](https://www.amazon.com/Digital-Design-Computer-Architecture-Second/dp/0123944244)
 - [Advanced Digital Design with Verilog HDL](https://www.amazon.com/Advanced-Digital-Design-Verilog-HDL/dp/0130893323)
 
 ---
 
-## 🌟 Acknowledgments
+## Acknowledgments
 
 ### **Special Thanks**
 
-**🎯 Mr. Kunal Ghosh** - *Founder, VSD (VLSI System Design)*  
+**Mr. Kunal Ghosh** - *Founder, VSD (VLSI System Design)*  
 For exceptional mentorship and vision in democratizing VLSI education through open-source tools and methodologies.
 
-**🏛️ VSD Team**  
+**VSD Team**  
 For developing comprehensive course content and maintaining high educational standards.
 
-**🌐 Open-Source EDA Community**  
+**Open-Source EDA Community**  
 For creating powerful, accessible tools that enable innovation in digital design:
 - [Icarus Verilog Contributors](http://iverilog.icarus.com/)
 - [GTKWave Development Team](http://gtkwave.sourceforge.net/)
