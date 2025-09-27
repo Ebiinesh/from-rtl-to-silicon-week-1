@@ -37,10 +37,7 @@
   - [Key Concepts Mastered](#key-concepts-mastered)
   - [Technical Skills Developed](#technical-skills-developed)
 - [📚 Additional Resources](#-additional-resources)
-  - [Recommended Reading](#recommended-reading)
-  - [Online Resources](#online-resources)
-  - [Practice Exercises](#practice-exercises)
-
+  
 ---
 
 ## 📋 Introduction
@@ -396,20 +393,10 @@ end
 
 ## 📚 Additional Resources
 
-### Recommended Reading
 - "Advanced Digital Design with the Verilog HDL" by Michael Ciletti
 - "RTL Hardware Design Using VHDL" by Pong P. Chu
 - IEEE 1364 Verilog Language Reference Manual
 
-### Online Resources
-- OpenLane Documentation
-- SkyWater PDK Guidelines
-- VLSI System Design Resources
-
-### Practice Exercises
-1. Implement and verify a 4:1 MUX with proper sensitivity lists
-2. Design a counter circuit avoiding blocking assignment pitfalls
-3. Set up GLS for a simple ALU design
 
 ---
 
