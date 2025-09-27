@@ -125,6 +125,8 @@ write_verilog -noattr multiple_modules_flat.v
 
 ![](images/Hier_vs_Flat.png)
 
+Flattened:
+
 ![](images/Flatten_net.png)
 
 Comparison table:
@@ -154,7 +156,7 @@ $ write_verilog -noattr multiple_modules_sub.v
 
 ![](images/sub_all.png)
 
-Flatten Synthesis:
+Flatten:
 
 ![](images/sub_net.png)
 
@@ -193,7 +195,9 @@ Styles table:
 | Async & Sync Reset        | Combines both for flexibility.        | Both      | ```module dff_async_syncres (input clk, async_reset, sync_reset, d; output reg q); always @(posedge clk or posedge async_reset) if (async_reset) q <= 0; else if (sync_reset) q <= 0; else q <= d; endmodule``` |
 
 1. Asynchronous Reset:
+
 ![](images/dff_asynch_res.png)
+
 Synthesis:
 ```
 $ read_liberty -lib ../my_lib/lib/sky130_fd_sc_hd__tt_025C_1v80.lib 
@@ -205,12 +209,15 @@ $ show
 ```
 
 2. Asynchronous Set:
+
 ![](images/dff_asynch_set.png)
 
 3. Synchronous Reset:
+
 ![](images/dff_synch_res.png)
 
 4. Async & Sync Reset:
+
 ![](images/dff_asynch_sync_res.png)
 
 **Note**: Avoid set + reset combos to prevent races.
