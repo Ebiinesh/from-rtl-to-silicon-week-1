@@ -446,14 +446,6 @@ endgenerate
 - Analyze synthesis reports for warnings
 - Correlate RTL behavior with hardware implementation
 
-### Advanced Concepts Preview
-
-Building on today's control structure foundation, upcoming topics will explore:
-- **Advanced State Machines**: Moore and Mealy machine implementations
-- **Pipelining Techniques**: Using control structures for high-performance design
-- **Clock Domain Crossing**: Safe data transfer between different clock regions
-- **Low Power Design**: Control structures for power gating and clock management
-
 ### Industry Best Practices Summary
 
 | **Category** | **Best Practice** | **Rationale** |
