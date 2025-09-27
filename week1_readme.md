@@ -41,7 +41,7 @@ Welcome to **Week 1** of the RTL Design & Synthesis course! This intensive week 
 
 - **[📖 Complete Day 1 Documentation →](./Day1/README.md)**
 
-**🚀 Key Achievements:**
+** Key Achievements:**
 - ✅ Successfully simulated 2:1 MUX design
 - ✅ Mastered GTKWave waveform analysis
 - ✅ Established foundational RTL coding skills
@@ -51,7 +51,7 @@ Welcome to **Week 1** of the RTL Design & Synthesis course! This intensive week 
 <details>
 <summary><h3>⚡ Day 2 - Introduction to Logic Synthesis</h3></summary>
 
-**🎯 Learning Objectives:**
+** Learning Objectives:**
 - Understand the synthesis process and optimization
 - Learn library-based technology mapping
 - Explore area vs delay trade-offs
