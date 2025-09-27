@@ -159,7 +159,7 @@ endcase
 
 Incomplete CASE statements occur when not all possible input combinations are explicitly handled, leading to unintended latch inference.
 
-![Incomplete Case Analysis](DAY_5/incomp_case.png)
+![Incomplete Case Analysis](images/incomp_case.png)
 
 #### Problem Analysis:
 ```verilog
@@ -195,8 +195,8 @@ endcase
 
 Partial assignments occur when some outputs are not assigned in all CASE branches, creating selective latch inference.
 
-![Partial Case Analysis 1](DAY_5/Partial_case_1.png)
-![Partial Case Analysis 2](DAY_5/Partial_case_2.png)
+![Partial Case Analysis 1](images/Partial_case_1.png)
+![Partial Case Analysis 2](images/Partial_case_2.png)
 
 #### Code Analysis:
 ```verilog
@@ -227,8 +227,8 @@ endcase
 
 Overlapping CASE statements create synthesis-simulation mismatches due to ambiguous condition coverage.
 
-![Bad Case Analysis 1](DAY_5/baad_case_1.png)
-![Bad Case Analysis 2](DAY_5/baad_case_2.png)
+![Bad Case Analysis 1](images/baad_case_1.png)
+![Bad Case Analysis 2](images/baad_case_2.png)
 
 #### Problematic Code:
 ```verilog
@@ -320,8 +320,8 @@ endgenerate
 
 Let's explore how FOR loops enable elegant, scalable multiplexer design:
 
-![For Loop MUX 1](DAY_5/For_loop_1.png)
-![For Loop MUX 2](DAY_5/For_loop_2.png)
+![For Loop MUX 1](images/For_loop_1.png)
+![For Loop MUX 2](images/For_loop_2.png)
 
 #### Traditional vs Loop-Based Implementation:
 
@@ -358,9 +358,9 @@ end
 
 FOR Generate constructs excel in creating repetitive hardware structures like adders:
 
-![Generate RCA 1](DAY_5/Generate_1.png)
-![Generate RCA 2](DAY_5/Generate_2.png)
-![Generate RCA 3](DAY_5/Generate_3.png)
+![Generate RCA 1](images/Generate_1.png)
+![Generate RCA 2](images/Generate_2.png)
+![Generate RCA 3](images/Generate_3.png)
 
 #### Manual vs Generate Implementation:
 
