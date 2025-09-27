@@ -54,7 +54,7 @@ RTL Design → Synthesis → Gate-Level Netlist → GLS Verification
 
 The following diagram illustrates the complete GLS setup using Iverilog:
 
-![GLS Setup](DAY_4/GLS_Setup.png)
+![GLS Setup](images/GLS_Setup.png)
 
 ### Essential Input Components
 
@@ -174,14 +174,14 @@ $ gtkwave tb_ternary_operator_mux_net.vcd
 
 ### Results Analysis
 
-![Good MUX Behavior](DAY_4/good_mux.png)
+![Good MUX Behavior](images/good_mux.png)
 
 **Good MUX Results:**
 - RTL and GLS waveforms match perfectly
 - Proper MUX functionality observed
 - No synthesis-simulation mismatch
 
-![Bad MUX Behavior](DAY_4/bad_mux.png)
+![Bad MUX Behavior](images/bad_mux.png)
 
 **Bad MUX Results:**
 - RTL simulation shows latch behavior
@@ -262,7 +262,7 @@ end
 
 ### The Problem Scenario
 
-![Blocking Assignment Issues](DAY_4/cavet_blocking.png)
+![Blocking Assignment Issues](images/cavet_blocking.png)
 
 ### Detailed Analysis
 
