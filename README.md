@@ -16,7 +16,7 @@
 
 ## Course Overview
 
-Welcome to **Week 1** of the RTL Design & Synthesis course! This intensive week covers the complete digital design flow from behavioral RTL descriptions to optimized gate-level implementations. Through hands-on labs and real-world examples, you'll master the art of writing synthesizable Verilog code and understanding how your designs translate to actual hardware.
+This intensive week 1 covers the complete digital design flow from behavioral RTL descriptions to optimized gate-level implementations. Through hands-on labs and real-world examples, you'll master the art of writing synthesizable Verilog code and understanding how your designs translate to actual hardware.
 
 ### Tools Arsenal
 | **Tool** | **Purpose** | **Version** |
