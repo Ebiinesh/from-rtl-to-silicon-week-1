@@ -32,7 +32,7 @@ The focus is on Verilog control structures that form the backbone of digital des
   - [Key Concepts Mastered](#key-concepts-mastered)
   - [Design Patterns Learned](#design-patterns-learned)
   - [Common Pitfalls and Solutions](#common-pitfalls-and-solutions)
-- [📚 Professional Resources](#-professional-resources)
+- [📚 Resources](#resources)
 
 ---
 
@@ -395,7 +395,7 @@ endgenerate
 
 ---
 
-## 5.6 Day 5 Comprehensive Summary
+## 5.6 Day 5 Summary
 
 ### Key Concepts Mastered
 
@@ -465,9 +465,9 @@ Building on today's control structure foundation, upcoming topics will explore:
 
 ---
 
-## 📚 Professional Resources
+## 📚 Resources
 
-### Essential Reading Materials
+### Reading Materials
 - **"Advanced Digital Design with the Verilog HDL"** by Michael D. Ciletti
 - **"Digital Design and Computer Architecture"** by Harris & Harris  
 - **"Writing Testbenches: Functional Verification of HDL Models"** by Janick Bergeron
@@ -477,24 +477,10 @@ Building on today's control structure foundation, upcoming topics will explore:
 - **IEEE 1800-2017**: SystemVerilog Unified Hardware Design Language
 - **Synopsys Design Compiler**: Synthesis methodology guidelines
 
-### Online Learning Platforms
-- **Coursera**: VLSI Design specialization courses
-- **edX**: Digital Systems Design and Verification
-- **IEEE Xplore**: Latest research in HDL design methodologies
-
 ### Professional Development Tools
 - **EDA Playground**: Online simulation and synthesis
 - **GitHub**: Version control for HDL projects  
 - **Jenkins**: Continuous integration for VLSI workflows
-
-### Recommended Practice Projects
-
-| **Project** | **Complexity** | **Skills Developed** | **Time Estimate** |
-|-------------|---------------|-------------------|------------------|
-| **8:1 MUX with Decoder** | Beginner | Basic control structures | 2-3 hours |
-| **Configurable Priority Encoder** | Intermediate | Advanced IF statements | 4-6 hours |
-| **Parameterizable ALU** | Advanced | Generate constructs | 8-12 hours |
-| **Multi-stage Pipeline** | Expert | Complex control logic | 2-3 days |
 
 ---
 
