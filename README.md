@@ -18,7 +18,7 @@
 
 Welcome to **Week 1** of the RTL Design & Synthesis course! This intensive week covers the complete digital design flow from behavioral RTL descriptions to optimized gate-level implementations. Through hands-on labs and real-world examples, you'll master the art of writing synthesizable Verilog code and understanding how your designs translate to actual hardware.
 
-### 🔧 **Tools Arsenal**
+### Tools Arsenal
 | **Tool** | **Purpose** | **Version** |
 |----------|-------------|-------------|
 | **Icarus Verilog** | RTL Simulation Engine | Latest |
@@ -181,7 +181,7 @@ Tool Proficiency           █████████████████�
 - [SystemVerilog IEEE Standard 1800-2017](https://ieeexplore.ieee.org/document/8299595)
 - [SkyWater SKY130 PDK Documentation](https://skywater-pdk.readthedocs.io/)
 
-### ** Tool References**
+### **Tool References**
 - [Icarus Verilog User Guide](http://iverilog.icarus.com/usage.html)
 - [GTKWave User Manual](http://gtkwave.sourceforge.net/gtkwave.pdf)
 - [Yosys Manual](http://www.clifford.at/yosys/files/yosys_manual.pdf)
