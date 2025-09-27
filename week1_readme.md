@@ -50,7 +50,7 @@ Welcome to **Week 1** of the RTL Design & Synthesis course! This intensive week 
 </details>
 
 <details>
-<summary><h3>⚡ Day 2 - Introduction to Logic Synthesis</h3></summary>
+<summary><h3>Day 2 - Introduction to Logic Synthesis</h3></summary>
 
 ** Learning Objectives:**
 - Understand the synthesis process and optimization
