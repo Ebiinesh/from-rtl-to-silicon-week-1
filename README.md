@@ -1,4 +1,4 @@
-# 🚀 Week 1: RTL Design & Synthesis Mastery
+# Week 1: RTL Design & Synthesis Mastery
 
 <div align="center">
   
@@ -14,7 +14,7 @@
 
 ---
 
-## 🎯 Course Overview
+## Course Overview
 
 Welcome to **Week 1** of the RTL Design & Synthesis course! This intensive week covers the complete digital design flow from behavioral RTL descriptions to optimized gate-level implementations. Through hands-on labs and real-world examples, you'll master the art of writing synthesizable Verilog code and understanding how your designs translate to actual hardware.
 
@@ -33,7 +33,6 @@ Welcome to **Week 1** of the RTL Design & Synthesis course! This intensive week 
 <details open>
 <summary><h3> Day 1 - RTL Design & Simulation Foundations</h3></summary>
 
-** Learning Objectives:**
 - Master the fundamentals of Verilog HDL
 - Set up and configure open-source EDA tools
 - Understand the RTL simulation workflow
@@ -51,7 +50,7 @@ Welcome to **Week 1** of the RTL Design & Synthesis course! This intensive week 
 <details>
 <summary><h3>Day 2 - Introduction to Logic Synthesis</h3></summary>
 
-** Learning Objectives:**
+
 - Understand the synthesis process and optimization
 - Learn library-based technology mapping
 - Explore area vs delay trade-offs
@@ -69,7 +68,6 @@ Welcome to **Week 1** of the RTL Design & Synthesis course! This intensive week 
 <details>
 <summary><h3> Day 3 - Combinational Logic Optimization</h3></summary>
 
-**🎯 Learning Objectives:**
 - Master combinational optimization techniques
 - Understand constant propagation and Boolean simplification
 - Learn advanced optimization algorithms
@@ -87,7 +85,6 @@ Welcome to **Week 1** of the RTL Design & Synthesis course! This intensive week 
 <details>
 <summary><h3>Day 4 - Gate-Level Simulation & Verification</h3></summary>
 
-**🎯 Learning Objectives:**
 - Perform comprehensive gate-level simulation
 - Identify and debug synthesis-simulation mismatches
 - Master blocking vs non-blocking assignments
@@ -105,7 +102,6 @@ Welcome to **Week 1** of the RTL Design & Synthesis course! This intensive week 
 <details>
 <summary><h3>Day 5 - Advanced Control Structures & Hardware Generation</h3></summary>
 
-**🎯 Learning Objectives:**
 - Master IF and CASE statement implementations
 - Learn loop constructs for scalable designs
 - Understand hardware generation techniques
@@ -174,7 +170,7 @@ Tool Proficiency           █████████████████�
 
 ---
 
-## 🔗 Essential Resources
+## Resources
 
 ### **Documentation**
 - [Verilog IEEE Standard 1364-2005](https://ieeexplore.ieee.org/document/1620780)
