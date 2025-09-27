@@ -124,6 +124,7 @@ write_verilog -noattr multiple_modules_flat.v
 ```
 
 ![](images/Hier_vs_Flat.png)
+
 ![](images/Flatten_net.png)
 
 Comparison table:
@@ -152,6 +153,9 @@ $ write_verilog -noattr multiple_modules_sub.v
 ```
 
 ![](images/sub_all.png)
+
+Flatten Synthesis:
+
 ![](images/sub_net.png)
 
 **Unique Insight**: In million-gate ASICs, this divide-and-conquer reduces tool crashes and iteration time.
