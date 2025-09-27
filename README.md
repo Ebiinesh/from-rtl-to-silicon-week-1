@@ -14,7 +14,7 @@
 
 ---
 
-## Course Overview
+## Overview
 
 This intensive week 1 covers the complete digital design flow from behavioral RTL descriptions to optimized gate-level implementations. Through hands-on labs and real-world examples, you'll master the art of writing synthesizable Verilog code and understanding how your designs translate to actual hardware.
 
