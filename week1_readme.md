@@ -31,14 +31,15 @@ Welcome to **Week 1** of the RTL Design & Synthesis course! This intensive week 
 ## 📚 Weekly Learning Path
 
 <details open>
-<summary><h3>🌟 Day 1 - RTL Design & Simulation Foundations</h3></summary>
+<summary><h3> Day 1 - RTL Design & Simulation Foundations</h3></summary>
 
-**🎯 Learning Objectives:**
+** Learning Objectives:**
 - Master the fundamentals of Verilog HDL
 - Set up and configure open-source EDA tools
 - Understand the RTL simulation workflow
 - Design and verify basic combinational circuits
-
+  
+**📁 Resources:**
 - **[📖 Complete Day 1 Documentation →](./Day1/README.md)**
 
 ** Key Achievements:**
@@ -59,8 +60,6 @@ Welcome to **Week 1** of the RTL Design & Synthesis course! This intensive week 
 
 **📁 Resources:**
 - **[📖 Complete Day 2 Documentation →](./Day2/README.md)**
-- **[⚙️ Synthesis Scripts & Examples →](./Day2/synthesis/)**
-- **[📈 Optimization Reports →](./Day2/reports/)**
 
 **🚀 Key Achievements:**
 - ✅ Synthesized RTL designs using Yosys
@@ -70,7 +69,7 @@ Welcome to **Week 1** of the RTL Design & Synthesis course! This intensive week 
 </details>
 
 <details>
-<summary><h3>🔍 Day 3 - Combinational Logic Optimization</h3></summary>
+<summary><h3> Day 3 - Combinational Logic Optimization</h3></summary>
 
 **🎯 Learning Objectives:**
 - Master combinational optimization techniques
@@ -80,8 +79,6 @@ Welcome to **Week 1** of the RTL Design & Synthesis course! This intensive week 
 
 **📁 Resources:**
 - **[📖 Complete Day 3 Documentation →](./Day3/README.md)**
-- **[🧮 Optimization Examples →](./Day3/examples/)**
-- **[📊 Before/After Comparisons →](./Day3/analysis/)**
 
 **🚀 Key Achievements:**
 - ✅ Applied constant propagation optimization
@@ -101,10 +98,8 @@ Welcome to **Week 1** of the RTL Design & Synthesis course! This intensive week 
 
 **📁 Resources:**
 - **[📖 Complete Day 4 Documentation →](./Day4/README.md)**
-- **[🐛 Debug Case Studies →](./Day4/debug/)**
-- **[⚠️ Common Pitfall Examples →](./Day4/pitfalls/)**
 
-**🚀 Key Achievements:**
+**Achievements:**
 - ✅ Successfully conducted GLS verification
 - ✅ Identified and resolved coding issues
 - ✅ Mastered professional Verilog practices
