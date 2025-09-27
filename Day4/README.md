@@ -36,7 +36,6 @@
 - [4.8 Day 4 Learning Summary](#48-day-4-learning-summary)
   - [Key Concepts Mastered](#key-concepts-mastered)
   - [Technical Skills Developed](#technical-skills-developed)
-  - [Next Steps: Day 5 Preview](#next-steps-day-5-preview)
 - [📚 Additional Resources](#-additional-resources)
   - [Recommended Reading](#recommended-reading)
   - [Online Resources](#online-resources)
@@ -392,14 +391,6 @@ end
 - Implement comprehensive verification methodology
 - Use industry-standard tools and practices
 - Document and track verification progress
-
-### Next Steps: Day 5 Preview
-
-Building on today's verification foundation, Day 5 will explore:
-- Advanced timing analysis techniques
-- Physical design considerations
-- Power optimization strategies
-- Industry case studies and best practices
 
 ---
 
