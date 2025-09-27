@@ -47,7 +47,7 @@ Below image illustrates the test bench configuration:
 
 Below image depicts the complete iverilog simulation workflow:  
 
-![](DAY_1/iverilog_sim_flow.png)
+![](images/iverilog_sim_flow.png)
 
 ## 1.5 Lab Environment Setup
 * Log into your lab instance and create a directory named VLSI in your home directory:
