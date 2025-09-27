@@ -467,12 +467,6 @@ endgenerate
 ### Industry Standards and Guidelines
 - **IEEE 1364-2005**: Verilog Hardware Description Language Standard
 - **IEEE 1800-2017**: SystemVerilog Unified Hardware Design Language
-- **Synopsys Design Compiler**: Synthesis methodology guidelines
-
-### Professional Development Tools
-- **EDA Playground**: Online simulation and synthesis
-- **GitHub**: Version control for HDL projects  
-- **Jenkins**: Continuous integration for VLSI workflows
 
 ---
 
