@@ -2,12 +2,7 @@
 
 ## Introduction
 
-Welcome to Day 5 of our advanced VLSI design course! Today we explore the powerful world of Verilog control structures that form the backbone of digital design. This session focuses on conditional statements (if-else), case constructs, and loop mechanisms that enable efficient hardware description and generation.
-
-Understanding these control structures is crucial for any VLSI engineer, as they directly influence how your RTL code translates into silicon. Poor coding practices with these constructs can lead to unintended latches, priority encoders instead of multiplexers, and synthesis-simulation mismatches that can derail your project timeline.
-
-This module will equip you with professional coding techniques used in industry, helping you write synthesizable, efficient, and maintainable Verilog code that performs exactly as intended in hardware.
-
+The focus is on Verilog control structures that form the backbone of digital design. This session covers conditional statements (if-else), case constructs, and loop mechanisms that enable efficient hardware description and generation. Mastery of these control structures is essential for VLSI engineers, as they directly affect how RTL code maps to silicon. Poor usage can result in unintended latches, priority encoders instead of multiplexers, and synthesis-simulation mismatches that disrupt project timelines. This module provides professional coding techniques used in industry, ensuring Verilog code is synthesizable, efficient, and maintainable, delivering the intended behavior in hardware.
 ---
 
 ## 📖 Table of Contents
