@@ -3,6 +3,7 @@
 ## Introduction
 
 The focus is on Verilog control structures that form the backbone of digital design. This session covers conditional statements (if-else), case constructs, and loop mechanisms that enable efficient hardware description and generation. Mastery of these control structures is essential for VLSI engineers, as they directly affect how RTL code maps to silicon. Poor usage can result in unintended latches, priority encoders instead of multiplexers, and synthesis-simulation mismatches that disrupt project timelines. This module provides professional coding techniques used in industry, ensuring Verilog code is synthesizable, efficient, and maintainable, delivering the intended behavior in hardware.
+
 ---
 
 ## 📖 Table of Contents
