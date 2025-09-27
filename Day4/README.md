@@ -1,5 +1,49 @@
 # Day 4 - Advanced Verification Techniques: Gate-Level Simulation and Design Integrity
 
+## 📖 Table of Contents
+
+- [📋 Introduction](#-introduction)
+- [4.1 Understanding Gate-Level Simulation (GLS)](#41-understanding-gate-level-simulation-gls)
+  - [What is Gate-Level Simulation?](#what-is-gate-level-simulation)
+  - [Why GLS Matters in Modern VLSI](#why-gls-matters-in-modern-vlsi)
+  - [The GLS Verification Flow](#the-gls-verification-flow)
+  - [GLS Implementation Categories](#gls-implementation-categories)
+- [4.2 Implementing GLS with Iverilog](#42-implementing-gls-with-iverilog)
+  - [GLS Setup Architecture](#gls-setup-architecture)
+  - [Essential Input Components](#essential-input-components)
+  - [Practical GLS Workflow](#practical-gls-workflow)
+- [4.3 Synthesis-Simulation Mismatch: The Hidden Challenge](#43-synthesis-simulation-mismatch-the-hidden-challenge)
+  - [Understanding the Problem](#understanding-the-problem)
+  - [Root Causes Analysis](#root-causes-analysis)
+- [4.4 Case Study: Missing Sensitivity List](#44-case-study-missing-sensitivity-list)
+  - [Scenario Analysis: Good vs Bad MUX Design](#scenario-analysis-good-vs-bad-mux-design)
+  - [Verification Flow for Sensitivity List Analysis](#verification-flow-for-sensitivity-list-analysis)
+  - [Results Analysis](#results-analysis)
+  - [Impact Analysis Table](#impact-analysis-table)
+- [4.5 Blocking vs Non-Blocking Assignments](#45-blocking-vs-non-blocking-assignments)
+  - [Fundamental Concepts](#fundamental-concepts)
+  - [Best Practices Guidelines](#best-practices-guidelines)
+  - [Common Pitfalls and Solutions](#common-pitfalls-and-solutions)
+- [4.6 Advanced Case Study: Blocking Assignment Caveats](#46-advanced-case-study-blocking-assignment-caveats)
+  - [The Problem Scenario](#the-problem-scenario)
+  - [Detailed Analysis](#detailed-analysis)
+  - [Behavior Comparison](#behavior-comparison)
+  - [Why This Mismatch Occurs](#why-this-mismatch-occurs)
+  - [Resolution Strategy](#resolution-strategy)
+- [4.7 Professional Verification Methodology](#47-professional-verification-methodology)
+  - [Comprehensive Verification Checklist](#comprehensive-verification-checklist)
+  - [Debug Methodology for Mismatches](#debug-methodology-for-mismatches)
+- [4.8 Day 4 Learning Summary](#48-day-4-learning-summary)
+  - [Key Concepts Mastered](#key-concepts-mastered)
+  - [Technical Skills Developed](#technical-skills-developed)
+  - [Next Steps: Day 5 Preview](#next-steps-day-5-preview)
+- [📚 Additional Resources](#-additional-resources)
+  - [Recommended Reading](#recommended-reading)
+  - [Online Resources](#online-resources)
+  - [Practice Exercises](#practice-exercises)
+
+---
+
 ## 📋 Introduction
 
 Welcome to Day 4 of our comprehensive VLSI design journey! Today we dive deep into the critical world of post-synthesis verification, exploring Gate-Level Simulation (GLS) and understanding the nuances that can lead to synthesis-simulation mismatches. This session is crucial for ensuring your digital designs work flawlessly in silicon.
