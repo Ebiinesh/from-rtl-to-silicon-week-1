@@ -165,37 +165,6 @@ Tool Proficiency           █████████████████�
 
 ---
 
-## 🚦 Quick Start Guide
-
-### **1. Environment Setup**
-```bash
-# Clone the repository
-git clone <repository-url>
-cd Week1-RTL-Design-Synthesis
-
-# Verify tool installations
-iverilog -V
-gtkwave --version  
-yosys -V
-```
-
-### **2. Run Sample Design**
-```bash
-# Navigate to Day 1
-cd Day1/
-
-# Run simulation
-make simulate
-
-# View waveforms
-make waves
-
-# Synthesize design
-make synthesize
-```
-
----
-
 ## 🎓 Learning Outcomes
 
 - 🔧 **RTL Design:** Write efficient, synthesizable Verilog code
