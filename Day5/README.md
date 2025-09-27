@@ -484,4 +484,3 @@ Building on today's control structure foundation, upcoming topics will explore:
 
 ---
 
-*This comprehensive documentation represents Day 5 of our VLSI design course. Each control structure concept builds upon previous learning while establishing the foundation for advanced digital design techniques ahead.*
