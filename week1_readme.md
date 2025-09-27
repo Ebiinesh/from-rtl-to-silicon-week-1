@@ -39,10 +39,7 @@ Welcome to **Week 1** of the RTL Design & Synthesis course! This intensive week 
 - Understand the RTL simulation workflow
 - Design and verify basic combinational circuits
 
-**📁 Resources:**
 - **[📖 Complete Day 1 Documentation →](./Day1/README.md)**
-- **[🔬 Lab Exercises & Solutions →](./Day1/labs/)**
-- **[📊 Simulation Waveforms →](./Day1/waveforms/)**
 
 **🚀 Key Achievements:**
 - ✅ Successfully simulated 2:1 MUX design
@@ -125,8 +122,7 @@ Welcome to **Week 1** of the RTL Design & Synthesis course! This intensive week 
 
 **📁 Resources:**
 - **[📖 Complete Day 5 Documentation →](./Day5/README.md)**
-- **[🔧 Advanced Examples →](./Day5/advanced/)**
-- **[📋 Best Practices Guide →](./Day5/guidelines/)**
+
 
 **🚀 Key Achievements:**
 - ✅ Implemented scalable control structures
@@ -207,35 +203,14 @@ make waves
 make synthesize
 ```
 
-### **3. Explore Daily Content**
-- Each day contains comprehensive documentation
-- Follow the structured learning path
-- Complete all hands-on exercises
-- Review synthesis reports and waveforms
-
 ---
 
 ## 🎓 Learning Outcomes
 
-By the end of Week 1, you will have:
-
-### **Technical Mastery**
 - 🔧 **RTL Design:** Write efficient, synthesizable Verilog code
 - ⚡ **Synthesis:** Optimize designs for area, timing, and power
 - 🔍 **Verification:** Perform thorough simulation and validation
 - 🛠️ **Tools:** Professional proficiency with open-source EDA tools
-
-### **Professional Skills**
-- 📋 **Documentation:** Create comprehensive design documentation
-- 🐛 **Debug:** Systematic approach to finding and fixing issues
-- 📊 **Analysis:** Interpret synthesis reports and optimization results
-- 🎯 **Best Practices:** Industry-standard coding and verification methods
-
-### **Industry Readiness**
-- 💼 **Portfolio:** Demonstrable projects showcasing your skills
-- 🏭 **Workflow:** Complete RTL-to-GLS design flow experience
-- 📈 **Metrics:** Understanding of design quality measurements
-- 🌟 **Innovation:** Ability to optimize and improve existing designs
 
 ---
 
@@ -273,32 +248,11 @@ For creating powerful, accessible tools that enable innovation in digital design
 - [GTKWave Development Team](http://gtkwave.sourceforge.net/)
 - [YosysHQ Team](https://yosyshq.net/)
 
-**🎓 Academic Community**  
-For fostering collaborative learning and continuous improvement in VLSI education.
-
----
-
-## 📞 Support & Community
-
-### **Get Help**
-- 💬 **Discussion Forum:** [Course Discussion Board](link-to-forum)
-- 📧 **Email Support:** [course-support@email.com](mailto:course-support@email.com)
-- 📱 **Discord Community:** [Join Our Server](discord-invite-link)
-
-### **Contribute**
-- 🐛 **Report Issues:** Use GitHub Issues
-- 💡 **Suggest Improvements:** Submit Pull Requests  
-- 📖 **Share Knowledge:** Contribute to documentation
 
 ---
 
 <div align="center">
 
-### **🎉 Congratulations on Completing Week 1!**
-
-*You've successfully mastered the fundamentals of RTL design and synthesis. Ready for the next challenge?*
-
-**[🚀 Proceed to Week 2 →](../Week2/README.md)**
 
 ---
 
