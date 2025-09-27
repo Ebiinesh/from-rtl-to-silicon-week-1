@@ -28,7 +28,7 @@ Welcome to **Week 1** of the RTL Design & Synthesis course! This intensive week 
 
 ---
 
-## 📚 Weekly Learning Path
+## Learning Path
 
 <details open>
 <summary><h3> Day 1 - RTL Design & Simulation Foundations</h3></summary>
@@ -48,7 +48,6 @@ Welcome to **Week 1** of the RTL Design & Synthesis course! This intensive week 
 - ✅ Established foundational RTL coding skills
 
 </details>
-
 <details>
 <summary><h3>Day 2 - Introduction to Logic Synthesis</h3></summary>
 
@@ -67,7 +66,6 @@ Welcome to **Week 1** of the RTL Design & Synthesis course! This intensive week 
 - ✅ Understood library cell mapping concepts
 
 </details>
-
 <details>
 <summary><h3> Day 3 - Combinational Logic Optimization</h3></summary>
 
@@ -86,9 +84,8 @@ Welcome to **Week 1** of the RTL Design & Synthesis course! This intensive week 
 - ✅ Measured optimization effectiveness
 
 </details>
-
 <details>
-<summary><h3>🔄 Day 4 - Gate-Level Simulation & Verification</h3></summary>
+<summary><h3>Day 4 - Gate-Level Simulation & Verification</h3></summary>
 
 **🎯 Learning Objectives:**
 - Perform comprehensive gate-level simulation
@@ -105,9 +102,8 @@ Welcome to **Week 1** of the RTL Design & Synthesis course! This intensive week 
 - ✅ Mastered professional Verilog practices
 
 </details>
-
 <details>
-<summary><h3>🏗️ Day 5 - Advanced Control Structures & Hardware Generation</h3></summary>
+<summary><h3>Day 5 - Advanced Control Structures & Hardware Generation</h3></summary>
 
 **🎯 Learning Objectives:**
 - Master IF and CASE statement implementations
