@@ -413,4 +413,4 @@ end
 
 ---
 
-*This documentation represents Day 4 of our comprehensive VLSI design course. Each concept builds upon previous learning while preparing for advanced topics ahead.*
+
