@@ -33,9 +33,8 @@ The initial day of the workshop provides an overview of the Icarus Verilog (iver
 * Notably, the test bench itself does not have primary inputs or outputs.
 
 Below image illustrates the test bench configuration:  
-![](images/Test_bench_setup.png)
 
-![](images/iverilog.png)
+![](images/Test_bench_setup.png)
 
 ## 1.4 Icarus Verilog Simulation Workflow
 * **Simulator Inputs**:  
