@@ -45,7 +45,7 @@
 
 ## 📋 Introduction
 
-Welcome to Day 4 of our comprehensive VLSI design journey! Today we dive deep into the critical world of post-synthesis verification, exploring Gate-Level Simulation (GLS) and understanding the nuances that can lead to synthesis-simulation mismatches. This session is crucial for ensuring your digital designs work flawlessly in silicon.
+The critical stage of post-synthesis verification is addressed through Gate-Level Simulation (GLS), with attention given to the nuances that may cause synthesis-simulation mismatches. This session is crucial for ensuring your digital designs work flawlessly in silicon.
 
 As VLSI designs become increasingly complex, the gap between what we simulate and what actually gets fabricated can lead to costly silicon failures. This module equips you with the knowledge to bridge this gap effectively using industry-standard tools and methodologies.
 
