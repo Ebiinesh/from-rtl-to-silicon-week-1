@@ -1,19 +1,21 @@
 # Day 3 Optimizing Combinational and Sequential Logic
 
-## Table of Contents
+## 📖 Table of Contents
 
-   3.1 [Overview of Logic Optimization](#31-overview-of-logic-optimization)  
-   3.2 [Combinational Logic Optimization Techniques](#32-combinational-logic-optimization-techniques)  
-       3.2.1 [Constant Propagation](#321-constant-propagation)  
-       3.2.2 [Boolean Algebra Simplification](#322-boolean-algebra-simplification)  
-   3.3 [Sequential Logic Optimization Techniques](#33-sequential-logic-optimization-techniques)  
-       3.3.1 [Sequential Constant Propagation](#331-sequential-constant-propagation)  
-       3.3.2 [Advanced Optimization Methods](#332-advanced-optimization-methods)  
-   3.4 [Logic Optimization Using Yosys](#34-logic-optimization-using-yosys)  
-       3.4.1 [Combinational Optimization in Yosys](#341-combinational-optimization-in-yosys)  
-       3.4.2 [Sequential Optimization in Yosys](#342-sequential-optimization-in-yosys)  
-   3.5 [Optimizing Unused Outputs](#35-optimizing-unused-outputs)  
-   3.6 [Day 3 Summary](#36-day-3-summary)
+- [3.1 Overview of Logic Optimization](#31-overview-of-logic-optimization)
+- [3.2 Combinational Logic Optimization Techniques](#32-combinational-logic-optimization-techniques)
+  - [3.2.1 Constant Propagation](#321-constant-propagation)
+  - [3.2.2 Boolean Algebra Simplification](#322-boolean-algebra-simplification)
+- [3.3 Sequential Logic Optimization Techniques](#33-sequential-logic-optimization-techniques)
+  - [3.3.1 Sequential Constant Propagation](#331-sequential-constant-propagation)
+  - [3.3.2 Advanced Optimization Methods](#332-advanced-optimization-methods)
+- [3.4 Logic Optimization Using Yosys](#34-logic-optimization-using-yosys)
+  - [3.4.1 Combinational Optimization in Yosys](#341-combinational-optimization-in-yosys)
+  - [3.4.2 Sequential Optimization in Yosys](#342-sequential-optimization-in-yosys)
+- [3.5 Optimizing Unused Outputs](#35-optimizing-unused-outputs)
+- [3.6 Day 3 Summary](#36-day-3-summary)
+
+---
 
 ## 3.1 Overview of Logic Optimization
 Logic optimization involves transforming a logic circuit to achieve an equivalent design that meets specific constraints, such as timing, area, or power efficiency. The goal is to streamline the design, reducing resource usage and improving simulation performance. By minimizing the number of gates or statements in the compiled code, optimization reduces program size, execution time, and power consumption, ensuring efficient hardware implementation.
