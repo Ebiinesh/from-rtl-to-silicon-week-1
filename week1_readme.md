@@ -218,7 +218,4 @@ For creating powerful, accessible tools that enable innovation in digital design
 
 *Built with ❤️ for the future of open-source VLSI design*
 
-![Footer](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)
-
 </div>
